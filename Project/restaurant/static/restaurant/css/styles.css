@@ -1,0 +1,134 @@
+/******* NAVBAR-MONOGRAM ******/
+.title-navbar{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    width: 50px;
+}
+
+.link-for-title-navbar{
+    margin-left: 16px;
+}
+
+.navbar-icons{
+    margin-right: 8px;
+}
+
+.monogram{
+    height: 32px;
+    position: absolute; left:47%
+}
+
+
+/******* MAIN COVER PICTURE  ******/
+.main-cover {
+    width: 100%;
+}
+
+/******* FEATURED SECTION ******/
+.main-container{
+    margin: 0% 10% 0% 10%;
+}
+
+.featured-container{
+    margin-top: 60px;
+}
+
+.featured-title{
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.featured-card{
+    display:flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+
+
+.featured-img-container {
+    max-width: 60%;
+    margin-bottom: 40px;
+}
+
+.featured-img{
+    width: 100%;
+    border-radius: 8px;
+}
+
+.featured-text{
+    max-width: 400px;
+    min-width: 400px;
+    text-align: justify;
+
+}
+
+.add-button{
+    background: #333;
+    color: white;
+    border-color: #333;
+    border: solid;
+    border-radius: 8px;
+}
+
+button.add-button:hover{
+    color: white;
+    border-color: #17A035;
+    background-color: #17A035;
+    box-shadow: 5px 5px 10px 2px rgba(0,0,0,.3);
+    transition: 0.9s;
+}
+
+/******* MENU SECTION ******/
+
+.menu-title-container{
+    text-align: center;
+    margin: 40px 0px 40px 0px;
+
+}
+
+.menu-title{
+
+}
+
+.menu-container{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    align-items: flex-end;
+    padding-left: 15px;
+
+}
+
+.menu-item-card{
+    margin-bottom: 40px;
+}
+
+.menu-item-type-dish{
+    margin-bottom: 0px;
+}
+
+.menu-item-hr{
+    margin-top: 0px;
+    margin-bottom: 24px;
+}
+.menu-item-title{
+}
+
+.menu-item-img-td{
+    colspan: 2;
+}
+
+.menu-item-img-container{
+    height: 200px;
+}
+
+.menu-item-img{
+    height: 100%;
+    border-radius: 8px;
+}
+
+.menu-item-p{
+    max-width: 250px;
+}
