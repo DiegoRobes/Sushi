@@ -7,9 +7,16 @@
 }
 
 .link-for-title-navbar{
-    margin-left: 16px;
+    margin-left: 8px;
 }
 
+.navbar-sushi-img{
+    width: 105px;
+}
+
+.sushi-img{
+    width: 100%;
+}
 .navbar-icons{
     margin-right: 8px;
 }
@@ -17,6 +24,22 @@
 .monogram{
     height: 32px;
     position: absolute; left:47%
+}
+
+/******* FOOTER  ******/
+.mt-auto{
+    display:flex;
+    justify-content: center;
+}
+
+.footer-div{
+    text-align: center;
+    width: 90px;
+    margin-bottom: 20px;
+}
+
+.footer-img{
+    width: 100px;
 }
 
 
