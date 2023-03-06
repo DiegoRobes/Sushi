@@ -2,6 +2,6 @@ from django.shortcuts import render, redirect
 from django.urls import reverse
 
 
-def register(request):
+def sign_up(request):
     context = {}
-    return render(request, 'user/register.html')
+    return render(request, 'user/sign_up.html')
