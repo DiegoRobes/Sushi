@@ -8,6 +8,8 @@ def home(request):
     return render(request, "restaurant/index.html", context=context)
 
 
-
+def about(request):
+    context = {}
+    return render(request, "restaurant/about.html", context=context)
 
 

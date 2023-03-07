@@ -48,6 +48,7 @@ display: flex;
 .display-fonts{
     color: #333
 }
+
 /******* MAIN COVER PICTURE  ******/
 .main-cover {
     width: 100%;
@@ -289,6 +290,10 @@ button.logout-button:hover{
     transition: 0.9s;
 }
 
+.update-info-button-container{
+    margin-top: 25px;
+}
+
 /******* EMPTY CART ******/
 .presentation-text-empty-cart{
     padding-left: 30px;
@@ -414,4 +419,18 @@ button.edit-cart:hover{
 
 .to-checkout-button-container{
     text-align: center;
+}
+
+/******* ABOUT US PAGE ******/
+.about-img-container{
+    width: 100%;
+}
+
+.location-map{
+    width: 100%;
+    border-radius: 8px;
+}
+
+.zip-codes-container{
+    margin-top: 40px;
 }
