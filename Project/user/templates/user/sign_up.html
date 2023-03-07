@@ -1,6 +1,6 @@
 {% extends 'base.html' %}
 {% load static %}
-{% block title %} Sushi by RC | Register {% endblock %}
+{% block title %} Sushi by RC | Sign Up {% endblock %}
 {% block body %}
 
 <!-- PRESENTATION -->
@@ -12,11 +12,11 @@
                 Sign Up
             </h1>
             <p>
-                Create an account with us, so your next order can be fulfilled faster.
-                <br>
                 This registration is a one-time process.
                 <br>
                 We will never share your information with anyone else.
+                <br>
+                Already registered? Login <a href="{% url 'login' %}">Here</a>
             </p>
 
         </div>

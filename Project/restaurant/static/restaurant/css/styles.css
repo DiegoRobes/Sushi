@@ -44,7 +44,10 @@ display: flex;
     width: 100px;
 }
 
-
+/******* GENERAL OPTIONS  ******/
+.display-fonts{
+    color: #333
+}
 /******* MAIN COVER PICTURE  ******/
 .main-cover {
     width: 100%;
@@ -93,7 +96,7 @@ display: flex;
     background: #333;
     color: white;
     border-color: #333;
-    border: solid;
+    border: #333 solid;
     border-radius: 8px;
 }
 
@@ -158,7 +161,62 @@ button.add-button:hover{
     max-width: 250px;
 }
 
-/******* REGISTRATION ******/
+/******* USER OPTIONS ******/
+.user-dashboard-container{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    margin: 40px 0px 40px 0px;
+}
+
+.user-options{
+    text-align: center;
+    width: 300px;
+    margin-bottom: 40px;
+}
+
+.user-options-button{
+    width: 230px;
+    height: 100px;
+    font-weight: 600;
+    margin: 0px 0px 10px 0px;
+}
+
+.user-icons{
+    margin: 30px 0px 20px 0px;
+}
+
+.user{
+    font-size: 120%;
+    color: #333;
+    width: 100%;
+    height: 100px;
+    margin: 20px 0px 40px 0px;
+    border: none;
+}
+
+button.user{
+    cursor: pointer;
+    position: relative;
+    background: white;
+    border-radius: 5px;
+    border-color: #333;
+    padding: 0 5px;
+}
+
+button.user:hover{
+      background-color: white;
+      box-shadow: 5px 5px 10px 2px rgba(0,0,0,.3);
+      transition: 0.9s;
+}
+/******* LOGIN ******/
+.login-form-container{
+    margin-bottom: 100px;
+}
+
+
+/******* SIGN UP ******/
 .register-presentation-img-container{
     width: 100%;
     height: 200px;
@@ -209,4 +267,151 @@ button.add-button:hover{
 
 .register-form-submit-button{
     text-align: right;
+}
+
+
+/******* CLIENT ACCOUNT ******/
+.log-out-button-container{
+    height: 50px;
+}
+.logout-button{
+    background: #333;
+    color: white;
+    border: #333 solid;
+    border-radius: 8px;
+}
+
+button.logout-button:hover{
+    color: #333;
+    border-color: white;
+    background-color: white;
+    box-shadow: 5px 5px 10px 2px rgba(0,0,0,.3);
+    transition: 0.9s;
+}
+
+/******* EMPTY CART ******/
+.presentation-text-empty-cart{
+    padding-left: 30px;
+    width: 75%;
+    overflow: hidden;
+    position: absolute;
+    top: 15%;
+}
+
+.presentation-empty-cart{
+    padding-left: 30px;
+    width: 75%;
+    overflow: hidden;
+    position: absolute;
+    top: 10%;
+}
+
+.cart-empty-text{
+    margin-bottom: 0px;
+}
+
+.empty-cart-container{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 10px 0px 80px 0px;
+
+}
+
+.back-to-store-button{
+    margin-top: 5px;
+}
+
+.cart-recommended-container{
+    display: flex;
+    flex-wrap: wrap;
+    align-items: flex-end;
+    justify-content: space-around;
+    margin-top: 80px;
+}
+
+/******* CART WITH ITEMS ******/
+.cart-title{
+ margin: 0;
+}
+
+.shipping-form-cart{
+    display: flex;
+    align-items: flex-end;
+    width: 80%;
+    overflow: hidden;
+    position: absolute;
+    top: 10%;
+    padding-left: 30px;
+}
+
+.cart-items-container{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+
+.cart-table{
+text-align: center;
+    margin: 20px;
+}
+
+.cart-item-img{
+    height: 100px;
+    border-radius: 4px;
+}
+
+.danger{
+    margin: 0px 0px 10px 0px;
+    border: solid #333;
+    border-width: thin;
+}
+
+button.danger{
+    cursor: pointer;
+    position: relative;
+    background: white;
+    border-radius: 5px;
+    border-color: #333;
+    padding: 0 5px;
+}
+
+button.danger:hover{
+      background-color:#CB0606;
+      color: white;
+      border-color: white;
+      transition: 0.7s;
+}
+
+.save_changes{
+    margin: 20px 0px 20px 0px;
+    width: 95%;
+    border: solid #333;
+    border-width: thin;
+}
+
+button.save_changes{
+    cursor: pointer;
+    position: relative;
+    background: white;
+    border-radius: 5px;
+    border-color: #333;
+    padding: 0 5px;
+    padding-bottom: 2px;
+}
+
+button.save_changes:hover,
+button.edit-cart:hover{
+      background-color: #17A035;
+      color: white;
+      border-color: white;
+      transition: 0.7s;
+}
+
+.bottom-row{
+    border-bottom: 1px solid rgba(51, 51, 51, .5);
+}
+
+.to-checkout-button-container{
+    text-align: center;
 }

@@ -8,5 +8,6 @@ def home(request):
     return render(request, "restaurant/index.html", context=context)
 
 
-def sign_up(request):
-    return redirect(reverse('sign_up'))
+
+
+
